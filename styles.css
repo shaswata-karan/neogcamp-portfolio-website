@@ -4,6 +4,7 @@
     --primary-color: #209CEE;
     --white-color: #ffffff;
     --dark-gray: #6b7280;
+    --light-gray: #f3f4f6;
 }
 
 body {
@@ -83,7 +84,7 @@ hr {
     font-weight: bold;
 }
 
-/* heading */
+/* header */
 
 .head {
     padding: 2rem;
@@ -104,3 +105,18 @@ hr {
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
+
+/* sections */
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.off-white {
+    background-color: var(--light-gray);
+}
+
