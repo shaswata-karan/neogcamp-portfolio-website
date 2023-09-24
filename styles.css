@@ -7,9 +7,12 @@
     --light-gray: #f3f4f6;
 }
 
+/* body */
+
 body {
     font-family: 'Montserrat',
     sans-serif;
+    margin: 0px;
 }
 
 hr {
