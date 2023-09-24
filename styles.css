@@ -2,7 +2,8 @@
 
 :root {
     --primary-color: #209CEE;
-    ;
+    --white-color: #ffffff;
+    --dark-gray: #6b7280;
 }
 
 body {
@@ -36,7 +37,7 @@ hr {
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color: white;
+    color: var(--white-color);
 }
 
 .link-secondary {
@@ -60,7 +61,7 @@ hr {
 
 .navigation {
     background-color: var(--primary-color);
-    color: white;
+    color: var(--white-color);
     padding: 1rem;
     border-bottom-left-radius: 1rem;
 }
@@ -71,7 +72,7 @@ hr {
 }
 
 .navigation .link {
-    color: white;
+    color: var(--white-color);
 }
 
 .navigation .nav-pills {
@@ -82,3 +83,24 @@ hr {
     font-weight: bold;
 }
 
+/* heading */
+
+.head {
+    padding: 2rem;
+}
+
+.hero .hero-image {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: var(--dark-gray);
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
