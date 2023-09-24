@@ -4,148 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shaswata's Portfolio</title>
-
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="favicon_io/site.webmanifest">
-    
-    <!-- CSS way 1: Style Tag
-    <style>
-        body {
-            color: red;
-        }
-    </style> -->
-    <!-- CSS way 3: External Link -->
-    <link rel="stylesheet" href="styles.css">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="/styles.css">
 </head>
 
 <body>
-    <!-- CSS way 2: Inline Tag
-    <h1 style="color: red;">Hello I am Shaswata</h1> -->
-    <h1>Hello I am Shaswata</h1>
-    <p>I am learning. I am attending neog camp by <strong>Tanay Pratap</strong> and I am making a library which will make my projects look good and consistent.</p>
-
-    <hr>
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1> <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <h3>This is the third biggest heading</h3>
-    <h4>This is the fourth biggest heading</h4>
-    <h5>This is the fifth biggest heading</h5>
-    <h6>This is the sixth biggest heading</h6>
-    <p>This is a normal text. This is free flowing and will wrap at the end like a paragraph.</p>
-    <small>This is relatively smaller text.</small> <small>This is relatively smaller text.</small> <small>This is relatively smaller text.</small>
-
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div class="container">This is a fluid container and will go till the end of the page</div>
-
-    <h3>center container</h3>
-    <div class="container container-center">This is a centered container and will go till the end of the page</div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a class="link link-primary" href="/">Primary Link</a>
-    <a class="link link-secondary" href="/">Secondary Link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-
-    <h3>unordered list</h3>
-    <p>This list will not have the bullet</p>
-    <ul class="list-non-bullet">
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
-    </ul>
-
-    <h3>unordered inline list</h3>
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">inline item one</li>
-        <li class="list-item-inline">inline item two</li>
-        <li class="list-item-inline">inline item three</li>
-    </ul>
-
-    <h3>reverse ordered list</h3>
-    <ol>
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
-    </ol>
-
-    <hr>
-
-    <h2>@nav</h2>
-
+    <!-- navbar -->
     <nav class="navigation container">
-        <div class="nav-brand">IAmBrand</div>
+        <div class="nav-brand">PORTFOLIO</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
                 <a class="link link-active" href="/">HOME</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">PROJECTS</a>
+                <a class="link" href="projects.html">PROJECTS</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">ABOUT</a>
+                <a class="link" href="blogs.html">BLOGS</a>
             </li>
         </ul>
     </nav>
-
-    <hr>
-
-    <h2>@header</h2>
-
+    <!-- header -->
     <header class="hero">
-        <img class="hero-image" src="images/hero.svg" alt="hero-image">
+        <img class="hero-image" src="/images/hero.svg" alt="hero-image">
         <h1 class="hero-heading">Shaswata Karan <span class="heading-inverted">is Developing his Portfolio...</span></h1>
     </header>
-
-    <hr>
-
-    <h2>@sections</h2>
-
-    <section class="section">
-        <div class="container container-center">
-            <h1>white section</h1>
-            <p>This will have white background This will have white background This will have white background This will have white background This will have white background This will have white background This will have white background This will have white background This will have white background </p>
-        </div>
-    </section>
-
+    <!-- section -->
     <section class="section off-white">
         <div class="container container-center">
-            <h1>off-white section</h1>
+            <h1>TECHNOLOGIES</h1>
             <p>This will have off white background This will have off white background This will have off white background This will have off white background This will have off white background This will have off white background This will have off white background This will have off white background</p>
         </div>
     </section>
-
-    <hr>
-    
-    <h2>@footer</h2>
-
+    <!-- section -->
+    <section class="section">
+        <div class="container container-center">
+            <h1>PROJECTS</h1>
+            <p>This will have white background This will have white background This will have white background This will have white background This will have white background This will have white background This will have white background This will have white background This will have white background </p>
+            <a class="link link-primary" href="/">See Projects</a>
+        </div>
+    </section>
+    <!-- section -->
+    <section class="section off-white">
+        <div class="container container-center">
+            <h1>BLOGS</h1>
+            <p>This will have off white background This will have off white background This will have off white background This will have off white background This will have off white background This will have off white background This will have off white background This will have off white background</p>
+            <a class="link link-secondary" href="/">Read Blogs</a>
+        </div>
+    </section>
+    <!-- footer -->
     <footer class="footer">
-        <div class="footer-header">some small headings inside footer</div>
+        <div class="footer-header">Let's connect 🚀</div>
         <ul class="social-links list-non-bullet">
             <li class="list-item-inline">
-                <a class="link" href="/">link1</a>
+                <a class="link" href="https://github.com/shaswata-karan">GitHub</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">link2</a>
+                <a class="link" href="https://www.linkedin.com/in/shaswata-karan-08b194197/">linkedin</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/">link3</a>
+                <a class="link" href="https://www.instagram.com/shaswata.karan/">Instagram</a>
             </li>
         </ul>
     </footer>
-
 </body>
 </html>
