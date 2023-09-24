@@ -1,4 +1,4 @@
-# Shaswata-Karan-Portfolio
+# Shaswata Karan's Portfolio
 
 Hey! Welcome to my portfolio.
 
