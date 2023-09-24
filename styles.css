@@ -120,3 +120,21 @@ hr {
     background-color: var(--light-gray);
 }
 
+/* footer */
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem;
+    text-align: center;
+    color: var(--white-color);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link {
+    color: var(--white-color);
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
